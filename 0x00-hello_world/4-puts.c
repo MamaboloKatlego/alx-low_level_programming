@@ -3,14 +3,14 @@
 
 /**
  * main - prints "programming is like building a multilingual
- * puzzle, follwed by a newline."
+ * puzzle, followed by a newline."
  * return 0.
  */
 
 int main(void)
 
 {
-        puts("\"programming is like building a mutlilingual puzzle");
+        puts("\"programming is like building a multilingual puzzle");
 
         return(0);
 }
