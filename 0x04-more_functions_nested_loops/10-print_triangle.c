@@ -6,7 +6,7 @@
  * Return: empty
  */
 
-void print_triangles(int size)
+void print_triangle(int size)
 
 {
 
