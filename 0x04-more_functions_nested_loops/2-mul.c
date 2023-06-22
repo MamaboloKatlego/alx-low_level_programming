@@ -7,7 +7,7 @@
  * Return: The result of multiplication between x paran and y paran
  */
 
-int mul(int x, int y,)
+int mul(int x, int y)
 
 {
 
