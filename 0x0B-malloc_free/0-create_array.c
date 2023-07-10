@@ -1,5 +1,5 @@
 #include "main.h"
-#include <unistd.h>
+#include <stdlib.h>
 
 /**
  * create_array - create array of size size and assign char c
