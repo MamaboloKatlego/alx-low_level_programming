@@ -14,4 +14,4 @@ char **strtow(char *str);
 
 int _putchar(char c);
 
-
+int count_words(char *str);
