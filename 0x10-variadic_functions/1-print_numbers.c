@@ -3,31 +3,29 @@
 #include "variadic_functions.h"
 
 /**
- * print_numbers - ...
- * @separator: ...
- * @n: ...
- *
- * Return: ...
+ * print_numbers - prints numbers, followed by a new line
+ * @separator: sep char
+ * @n: argc
  */
+
 void print_numbers(const char *separator, const unsigned int n, ...)
 {
 	va_list args;
-	unsigned int i = 0;
+	unsigned int i;
 
-	if (n > 0)
+	if (separator != NULL)
 	{
-		va_start(args, n);
-
-		while (i < n)
+	va_start(args, n);
+	for (i = 0; i < n; i++)
+	{
+		if (i == n - 1)
 		{
 			printf("%d", va_arg(args, int));
-
-			if (i != n - 1 && separator != NULL)
-				printf("%s", separator);
-
-			i++;
+			continue
 		}
-		va_end(args);
+		printf("%d%s", va_arg(args, int), separator);
 	}
 	printf("\n");
+	va_end(args);
+	}
 }
