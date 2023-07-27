@@ -47,7 +47,7 @@ list_t *add_node_end(list_t **head, const char *str)
  * _strlen - Returns the length of a string
  * @s: String to count
  *
- * return: String length
+ * Return: String length
  */
 int _strlen(const char *s)
 {
