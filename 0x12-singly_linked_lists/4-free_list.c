@@ -3,7 +3,7 @@
 
 /**
  * free_list - Frees a linked list.
- * #head: The pointer to the first node of linked list
+ * @head: The pointer to the first node of linked list
  *
  * Return: Nothing
  */
