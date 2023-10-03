@@ -1,5 +1,5 @@
-#ifndef
-#define
+#ifndef MAIN_H
+#define MAIN_H
 
 void print_abi(unsigned char *e_ident);
 void print_type(unsigned int e_type, unsigned char *e_ident);
