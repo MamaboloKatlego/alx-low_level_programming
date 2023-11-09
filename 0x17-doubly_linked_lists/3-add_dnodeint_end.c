@@ -5,10 +5,10 @@
  *
  * Description: The long description
  *
- * @head: arg_1 description
+ * @head: arg1 description
  * @n: arg_2 description
  *
- * return: The return description
+ * Return: The return description
  */
 dlistint_t *add_dnodeint_end(dlistint_t **head, const int n)
 {
