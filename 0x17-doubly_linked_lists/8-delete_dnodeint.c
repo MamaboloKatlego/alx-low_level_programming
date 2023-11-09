@@ -2,11 +2,13 @@
 
 /**
  * delete_dnodeint_at_index - The short description
- * @head: The list head
- * @idx: arg_1 description
+ *
  * Description: The long description
- * 
- * return: The return description
+ *
+ * @head: The list head
+ * @index: arg_1 description
+ *
+ * Return: The return description
  */
 int delete_dnodeint_at_index(dlistint_t **head, unsigned int index)
 {
