@@ -1,12 +1,12 @@
 #include "lists.h"
 
 /**
- * delete_dnodeint_at_index - The short desc
+ * delete_dnodeint_at_index - The short description
  * @head: The list head
- * @idx: arg_1 desc
- * Desc: The long desc
+ * @idx: arg_1 description
+ * Description: The long description
  * 
- * return: The return desc
+ * return: The return description
  */
 int delete_dnodeint_at_index(dlistint_t **head, unsigned int index)
 {
