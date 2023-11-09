@@ -4,7 +4,7 @@
  * dlistint_len - The short description
  * @h: The double linked list pointer
  * Description: The long Description
- * return: The return desc
+ * return: The return description
  */
 size_t dlistint_len(const dlistint_t *h)
 {
