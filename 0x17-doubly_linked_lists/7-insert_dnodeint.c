@@ -1,13 +1,15 @@
 #include "lists.h"
 
 /**
- * insert_dnodeint_at_index - The short desc
- * @h: The list head
- * @index: arg_1 desc
- * @n: arg_2 desc
- * Description: the long desc
+ * insert_dnodeint_at_index - the short description
  *
- * Return: The return desc
+ * Description: The long description
+ *
+ * @h: The list head
+ * @idx: arg_1 description
+ * @n: arg_2 description
+ *
+ * Return: The return description
  */
 dlistint_t *insert_dnodeint_at_index(dlistint_t **h, unsigned int idx, int n)
 {
