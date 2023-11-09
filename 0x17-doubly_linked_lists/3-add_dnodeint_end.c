@@ -1,10 +1,14 @@
 #include "lists.h"
 
 /**
- * add_dnodeint_end - The short desc
- * @head: arg_1 desc
- * @n: arg_2 desc
- * return: The return desc
+ * add_dnodeint_end - The short description
+ *
+ * Description: The long description
+ *
+ * @head: arg_1 description
+ * @n: arg_2 description
+ *
+ * return: The return description
  */
 dlistint_t *add_dnodeint_end(dlistint_t **head, const int n)
 {
