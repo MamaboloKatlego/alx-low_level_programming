@@ -1,8 +1,10 @@
 #!/usr/bin/python3
 """
+File: 5-island_perimeter.py
+
 Author: Mamabolo Katlego  <rabotaikatlego@gmail.com>
 
-A Function that returns the perimeter of the island described in grid.
+Function that returns the perimeter of the island described in grid.
 """
 
 
