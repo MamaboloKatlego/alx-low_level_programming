@@ -1,39 +1,27 @@
 #!/usr/bin/python3
-"""
-File: 5-island_perimeter.py
 
-Author: Mamabolo Katlego  <rabotaikatlego@gmail.com>
-
-Function that returns the perimeter of the island described in grid.
-"""
+"""Define functions of an island perimeter"""
 
 
 def island_perimeter(grid):
-    """
-    Returns the perimeter of an island described in grid:
-        grid is a list of list of integers:
-            *0 represents a water zone
-            *1 represents a land zone
-            *One cell is a square with side length 1
-            *Grid cells are connected horizontally/vertically (not diagonally)
-            *Grid is rectangular, width and height don’t exceed 100
-            *Grid is completely surrounded by water, and there is
-                one island (or nothing)
-            *The island doesn’t have “lakes” (water inside that isn’t
-                connected to the water around the island)
-    Args(grid):
-                given list of a double array of 0s and 1s
+    """Returns perimeter of an Island
+
+    Args:
+       grid(list): List of integers
     Returns:
-            the preimeter of the island
+       The perimeter of island in grid
     """
-    size = 0
+    width = len(grid[0])
+    height = len(grid)
     edges = 0
-    for a in range(len(grid)):
-        for b in range(len(grid[0])):
-            if grid[a][b] == 1:
+    size = 0
+
+    for i in range(height):
+        for j in range(width):
+            if grid[i][j] == 1:
                 size += 1
-                if (b > 0 and grid[a][b - 1] == 1):
+                if (j > 0 and grid[i][j - 1] == 1):
                     edges += 1
-                if (b > 0 and grid[i - 1][b] == 1):
+                if (i > 0 and grid[i - 1][j] == 1):
                     edges += 1
-    return (size * 4 - edges * 2)
+    return size * 4 - edges * 2
